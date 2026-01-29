@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.panel {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 8px;
+    width: 250px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #f2f2f2;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: green;
+    font-weight: bold;
+}
+
+.mensaje-error {
+    color: red;
+}
