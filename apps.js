@@ -71,19 +71,16 @@ function renderLista() {
             li.classList.add("completada");
         }
 
-        // Marcar completada
         li.addEventListener("click", () => {
             gestor.toggle(tarea.id);
             renderLista();
         });
 
-        // Eliminar
         li.addEventListener("dblclick", () => {
             gestor.eliminar(tarea.id);
             renderLista();
         });
 
-        // Editar
         li.addEventListener("contextmenu", (e) => {
             e.preventDefault();
             const nuevo = prompt("Editar tarea:", tarea.nombre);
